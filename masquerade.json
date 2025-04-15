@@ -1,0 +1,17 @@
+{
+	"id": "masquerade",
+	"name": "Masquerade",
+	"display_name": "Masquerade",
+	"author": ["ezan"],
+	"description": "A mod that adds new Jokers.", 
+	"badge_colour": "343A40",     
+	"badge_text_colour": "FFD700",
+	"prefix": "masquerade",
+	"main_file": "main.lua",
+	"priority": 0,
+	"version": "0.0.1", 
+	"dependencies": [
+		"Steamodded (>=1.*)", 
+		"Lovely (>=0.6)"
+	]
+}
