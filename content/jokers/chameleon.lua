@@ -6,6 +6,7 @@ SMODS.Joker{
     rarity = 3,
     cost = 8,
     blueprint_compat = true,
+    discovered = true,
     config = {
         extra = {
             repetitions = 1
