@@ -1,7 +1,14 @@
 return {
     descriptions = {
         Joker = {
-            j_masquerade_danger = {
+            j_jestora_chameleon = {
+                name = "Chameleon",
+                text = {
+                    "Retrigger all",
+                    "played {C:attention}Wild{} cards"
+                }
+            },
+            j_jestora_danger = {
                 name = "I am the Danger",
                 text = {
                     "If {C:attention}first hand{} of round",
@@ -12,18 +19,14 @@ return {
                     "is selected"
                 }
             },
-            j_masquerade_chameleon = {
-                name = "Chameleon",
+            j_jestora_pyramids = {
+                name = "Pyramids",
                 text = {
-                    "Retrigger all",
-                    "played {C:attention}Wild{} cards"
+                    "Played {C:attention}Gold{} cards",
+                    "give {C:mult}+#1#{} Mult",
+                    "when scored",
                 }
             },
-        },
-    },
-    misc = {
-        dictionary = {
-            k_say_my_name_ex = "Say my name"
         },
     },
 }

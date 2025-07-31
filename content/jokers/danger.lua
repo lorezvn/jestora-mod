@@ -24,7 +24,7 @@ SMODS.Joker{
             if G.GAME.dollars ~= 0 then
                 ease_dollars(-G.GAME.dollars, true)
                 return {
-                    message = localize('k_say_my_name_ex'),
+                    message = "Knock",
                     card = card
                 }
             end
