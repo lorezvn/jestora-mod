@@ -1,14 +1,18 @@
 return {
     descriptions = {
-        Joker = {
-            j_jestora_chameleon = {
+        Back={},
+        Blind={},
+        Edition={},
+        Enhanced={},
+        Joker={
+            j_jestora_chameleon={
                 name = "Chameleon",
                 text = {
                     "Retrigger all",
                     "played {C:attention}Wild{} cards"
                 }
             },
-            j_jestora_danger = {
+            j_jestora_danger={
                 name = "I am the Danger",
                 text = {
                     "If {C:attention}first hand{} of round",
@@ -19,7 +23,7 @@ return {
                     "is selected"
                 }
             },
-            j_jestora_pyramids = {
+            j_jestora_pyramids={
                 name = "Pyramids",
                 text = {
                     "Played {C:attention}Gold{} cards",
@@ -28,5 +32,38 @@ return {
                 }
             },
         },
+        Other={},
+        Planet={},
+        Spectral={},
+        Stake={},
+        Tag={},
+        Tarot={
+            c_jestora_pot={
+                name = "Pot of Greed",
+                text = {
+                    "Draw 2 cards",
+                }
+            },
+        },
+        Voucher={},
+    },
+    misc = {
+        achievement_descriptions={},
+        achievement_names={},
+        blind_states={},
+        challenge_names={},
+        collabs={},
+        dictionary={},
+        high_scores={},
+        labels={},
+        poker_hand_descriptions={},
+        poker_hands={},
+        quips={},
+        ranks={},
+        suits_plural={},
+        suits_singular={},
+        tutorial={},
+        v_dictionary={},
+        v_text={},
     },
 }
